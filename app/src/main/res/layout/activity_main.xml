@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/im_fell_english"
+        android:text="SasinMed"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/im_fell_english"
+        android:text="Niezawodna rejestracja medyczna online"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="32dp"
+        android:fontFamily="@font/habibi"
+        android:text="W aplikacji mobilnej możesz w każdej chwili sprawdzić aktualną kolejkę do naszych lekarzy."
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/show_queue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="32dp"
+        android:fontFamily="@font/habibi"
+        android:padding="16dp"
+        android:text="Wyświetl kolejkę" />
+
+</LinearLayout>

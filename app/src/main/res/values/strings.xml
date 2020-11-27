@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SasinMed</string>
+    <string name="info_queue_patient">Kolejka pacjentów aktualnie oczekujących na wizytę</string>
+    <string name="info_queue_empty">Kolejka aktualnie jest pusta</string>
+    <string name="info_queue_error">Wystąpił błąd i nie udało się pobrać kolejki</string>
+</resources>
